@@ -1,0 +1,380 @@
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  } 
+  @media only screen and (min-width: 768px)
+  {
+  .jumbotron 
+  {
+      background: url("Binary Case2.png") 400px 0px no-repeat;
+      height: 500px;
+      background-color: rgb(14,109,189);
+      padding: 100px 20px;
+      font-family: Montserrat, sans-serif;
+      font-weight: bolder !important;
+  }
+}
+@media only screen and (max-width: 677px) 
+{
+  .jumbotron 
+  {
+     display: none;
+  }
+ 
+}
+
+  /*add shadow to all containers on hover*/
+  .container-fluid:hover
+  {
+     box-shadow: -10px 10px 50px rgba(0,0,0,0.5);
+  }
+
+ h1.weAre
+ {
+    color: black;
+ }  
+ h1.weAre:hover
+  {
+      text-decoration: underline;
+      text-decoration-color: red;
+
+  }
+
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  
+  .bg-grey {
+      /*background:url("portBG5.jpg");*/
+      background-color: white;
+      background-size: cover;
+  }
+  
+  #portfolio
+  {
+    background: url("portBG3.png");
+    background-size: cover;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .offer:hover
+  {
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+  }
+
+.portfolio:hover
+  {
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+  }
+
+.u1:hover
+{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.u2:hover
+{
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+.u3:hover
+{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.u4:hover
+{
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+.u5:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #003321;
+}
+.u6:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #331700;
+}
+
+#created:hover
+{    
+  border-top:  4px solid purple;
+  text-shadow: 2px 10px 25px black;
+}
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 5px;
+  }
+  .thumbnail img
+  {
+    width: 100%;
+  }
+  .thumbnail img:hover
+  {
+    width: 100%;
+  }
+  .thumbnail:hover
+  {
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.5);
+  }
+  .carousel-inner, #myCarousel
+  {
+    background:url("portBG.jpg");
+  }
+
+  #landing:hover
+  {
+    border-bottom:  3px solid red;
+  }
+  #resp:hover
+  {
+    border-bottom:  3px solid purple;
+  }
+   #ux:hover
+  {
+    border-bottom:  3px solid blue;
+  }
+
+  /*on hovere the our services will decrease image width*/
+
+  .prj1:hover
+{
+  width:  350px;
+  border-radius: 20px;
+ 
+}
+.prj2:hover
+{
+  width:  350px;
+   border-radius: 20px;
+}
+.prj3:hover
+{
+  width:  350px;
+   border-radius: 20px;
+}
+
+  .owner1 
+  {
+    margin-left: 650px;
+    margin-top: 50px;
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .owner1:hover
+  {
+    border: 2px groove black;
+    width: 80px;
+    height: 80px;  
+    border-radius: 50%;  
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.5);
+  }
+  .owner2 
+  {
+
+    margin-left: 650px;
+    margin-top: 50px;
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .owner2:hover
+  {
+   border: 2px groove black;
+    width: 80px;
+    height: 80px;   
+    border-radius: 50%;  
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.5);
+  }
+  
+ 
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  
+  .navbar {
+      margin-bottom: 0;
+      background-color: rgba(0,0,0,0.8);
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+
+  }
+.navbar-brand, img
+{
+  width: 110px;
+}
+.navbar-brand, img:hover
+{
+  width: 150px;
+}
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+}
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar li a:hover
+  {
+      font-weight: bold;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: white;
+      color: #fff !important;
+  }
+  .navbar-toggle:hover
+  {
+    font-weight: bolder;
+  }
+
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+   
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+
+  #conc:hover
+  {
+    border-left:   15px solid rgba(0,0,0,0.5);
+    border-right:  15px solid rgba(0,0,0,0.5);
+  }
+  #contact
+  {
+    background-color: rgba(245,245,245,1);
+  }
+  .place:hover
+  {
+    color: green;
+    font-size: 14px;
+  }
+  .phNo:hover
+  {
+    color: orange;
+    font-size: 14px;
+  }
+.email:hover
+ {
+    color: #c71610; /*Gmail Color*/
+    font-size: 14px;
+  }
+
+#TOP
+{
+  margin-left:auto; 
+  margin-right: auto;
+}
+
+footer
+{
+  background: url("footerBg.jpg");
+}
+.fa-facebook-square
+{
+  color:#3a5998; 
+}
+.fa-facebook-square:hover
+{
+  color: #0c317c;
+}
+footer .fb1:hover
+{
+  border-left:   15px dotted rgba(255,255,255,1);
+    border-right: 15px dotted rgba(255,255,255,1);
+}
+footer .fb2:hover
+{
+  border-left:   15px dotted rgba(255,255,255,1);
+    border-right: 15px dotted rgba(255,255,255,1);
+}
+
+
+
